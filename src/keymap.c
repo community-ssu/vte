@@ -915,7 +915,7 @@ static const struct _vte_keymap_group {
 
 	{GDK_KP_Space,		_vte_keymap_GDK_KP_Space},
 	{GDK_KP_Tab,		_vte_keymap_GDK_KP_Tab},
-	{GDK_KP_Enter,		_vte_keymap_GDK_KP_Enter},
+	{GDK_KP_Enter,		_vte_keymap_GDK_Return},
 	{GDK_KP_F1,		_vte_keymap_GDK_KP_F1},
 	{GDK_KP_F2,		_vte_keymap_GDK_KP_F2},
 	{GDK_KP_F3,		_vte_keymap_GDK_KP_F3},
