@@ -11438,6 +11438,7 @@ vte_terminal_set_scrollback_lines(VteTerminal *terminal, glong lines)
 	VteScreen *screen;
 
 	g_return_if_fail(VTE_IS_TERMINAL(terminal));
+	g_return_if_fail(lines >= 0);
 	_vte_debug_print (VTE_DEBUG_MISC,
 			"Setting scrollback lines to %ld\n", lines);
 
